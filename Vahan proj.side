@@ -1,0 +1,187 @@
+{
+  "id": "ac6cabf4-d2cc-48b9-add7-162a5538dd1c",
+  "version": "2.0",
+  "name": "Vahan proj",
+  "url": "https://vahan.parivahan.gov.in/vahan4dashboard/vahan/view/reportview.xhtml",
+  "tests": [{
+    "id": "a8b643db-10e2-4e9a-a61d-b9eac2db1fb5",
+    "name": "Vahan Sewa",
+    "commands": [{
+      "id": "d2cdf640-9db3-4114-b358-2fdf1bca515b",
+      "comment": "",
+      "command": "open",
+      "target": "https://vahan.parivahan.gov.in/vahan4dashboard/vahan/view/reportview.xhtml",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb1a42b9-3de0-47da-b147-beb954f999fc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 2",
+      "targets": [],
+      "value": "i"
+    }, {
+      "id": "1d246022-3489-42b6-8368-396c23ac67be",
+      "comment": "",
+      "command": "while",
+      "target": "${i} <= 38",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a860ebbd-d96e-46de-acde-17165ff78c38",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt31_label",
+      "targets": [
+        ["id=j_idt31_label", "id"],
+        ["css=#j_idt31_label", "css:finder"],
+        ["xpath=//label[@id='j_idt31_label']", "xpath:attributes"],
+        ["xpath=//div[@id='j_idt31']/label", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'All Vahan4 Running States (34/36)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "301214c4-ca66-41c9-9f41-4a8a29b33b6a",
+      "comment": "",
+      "command": "click",
+      "target": "id=j_idt31_11",
+      "targets": [
+        ["id=j_idt31_11", "id"],
+        ["css=#j_idt31_11", "css:finder"],
+        ["xpath=//li[@id='j_idt31_11']", "xpath:attributes"],
+        ["xpath=//ul[@id='j_idt31_items']/li[12]", "xpath:idRelative"],
+        ["xpath=//li[12]", "xpath:position"],
+        ["xpath=//li[contains(.,'Gujarat(36)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a65e4db4-3b26-444f-a238-0e8fe5a1b549",
+      "comment": "",
+      "command": "click",
+      "target": "id=selectedRto_label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e55e4b9-b6bb-4b80-b74b-d990d780f725",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//ul[@id='selectedRto_items']/li[${i}]",
+      "targets": [
+        ["id=selectedRto_1", "id"],
+        ["css=#selectedRto_1", "css:finder"],
+        ["xpath=//li[@id='selectedRto_1']", "xpath:attributes"],
+        ["xpath=//ul[@id='selectedRto_items']/li[2]", "xpath:idRelative"],
+        ["xpath=//div[9]/div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'AAHWA - GJ30( 17-MAR-2017 )')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfeb6880-37a8-42f6-a374-2c4379a2dcbd",
+      "comment": "",
+      "command": "click",
+      "target": "id=yaxisVar_label",
+      "targets": [
+        ["id=yaxisVar_label", "id"],
+        ["css=#yaxisVar_label", "css:finder"],
+        ["xpath=//label[@id='yaxisVar_label']", "xpath:attributes"],
+        ["xpath=//div[@id='yaxisVar']/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Vehicle Class')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc10b3d0-157a-42a4-a9ba-eb66b3550847",
+      "comment": "",
+      "command": "click",
+      "target": "id=yaxisVar_4",
+      "targets": [
+        ["id=yaxisVar_4", "id"],
+        ["css=#yaxisVar_4", "css:finder"],
+        ["xpath=//li[@id='yaxisVar_4']", "xpath:attributes"],
+        ["xpath=//ul[@id='yaxisVar_items']/li[5]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/ul/li[5]", "xpath:position"],
+        ["xpath=//li[contains(.,'Maker')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad621b4a-9f72-491b-af99-0f49d77dfb22",
+      "comment": "",
+      "command": "click",
+      "target": "css=#j_idt61 > .ui-button-text",
+      "targets": [
+        ["css=#j_idt61 > .ui-button-text", "css:finder"],
+        ["xpath=//button[@id='j_idt61']/span[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Refresh')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5194f75b-7887-4742-95db-40017306354a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${i}+1",
+      "targets": [],
+      "value": "i"
+    }, {
+      "id": "7cfaf067-2953-4247-bfb8-dbdb852326c1",
+      "comment": "",
+      "command": "echo",
+      "target": "${i}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "679bd5f3-9ebc-4538-ae5e-c63cf8d7def4",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "96ddc48a-447f-4a2d-9f9c-d897469d802b",
+      "comment": "",
+      "command": "click",
+      "target": "id=vchgroupTable:j_idt100",
+      "targets": [
+        ["id=vchgroupTable:j_idt100", "id"],
+        ["css=#vchgroupTable\\3Aj_idt100", "css:finder"],
+        ["xpath=//img[@title='Download EXCEL file']", "xpath:img"],
+        ["xpath=//img[@id='vchgroupTable:j_idt100']", "xpath:attributes"],
+        ["xpath=//a[@id='vchgroupTable:xls']/img", "xpath:idRelative"],
+        ["xpath=//div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77e7ef77-1cec-4fcd-98a2-930030528c95",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "1500"
+    }, {
+      "id": "185861e8-f62f-44a7-b224-534d98b44c16",
+      "comment": "",
+      "command": "open",
+      "target": "https://vahan.parivahan.gov.in/vahan4dashboard/vahan/view/reportview.xhtml",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27a6e25f-b43b-4627-a763-d83dee2db03b",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1e8c97db-02a4-4e9f-86d7-c25110ff3d4f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a8b643db-10e2-4e9a-a61d-b9eac2db1fb5"]
+  }],
+  "urls": ["https://vahan.parivahan.gov.in/vahan4dashboard/vahan/view/reportview.xhtml"],
+  "plugins": []
+}
